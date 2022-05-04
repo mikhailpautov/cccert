@@ -4,7 +4,7 @@
 To reproduce the results on MNIST and CIFAR-10 datasets, one should have the copies of the datasets and the weights of the networks (see below) and install the libraries:
 
 ```
-pip install req.txt
+pip install -r req.txt
 ```
 
 Then, one may run the code:
