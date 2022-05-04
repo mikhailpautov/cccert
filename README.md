@@ -1,4 +1,5 @@
 # Official implementation for the paper "CC-Cert: A Probabilistic Approach to Certify General Robustness of Neural Networks" 
+## https://arxiv.org/abs/2109.10696
 
 
 To reproduce the results on MNIST and CIFAR-10 datasets, one should have the copies of the datasets and the weights of the networks (see below) and install the libraries:
