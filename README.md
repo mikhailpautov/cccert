@@ -33,9 +33,9 @@ MAX_TRANSLATION_1 -- maximum translation along X axis as a fraction of image X s
 MAX_TRANSLATION_2 -- maximum translation along Y axis as a fraction of image Y size; format: 0.0 < float < 1.0
 MAX_BRIGHTNESS -- maximum brightness factor; format: float > 0.0
 MAX_CONTRAST -- maximum contrast factor; format: float > 0.0
-MAX_SCALE_1 -- maximum change in the scale to be appied along X axis of image; format: float >= 1.0
-MAX_SCALE_2 -- maximum change in the scale to be appied along Y axis of image; format: float >= 1.0
+MAX_SCALE_1 -- maximum change in the scale to be applied along X axis of image; format: float >= 1.0
+MAX_SCALE_2 -- maximum change in the scale to be applied along Y axis of image; format: float >= 1.0
 MAX_BLUR_1 -- standard deviation of the Gaussian kernel along X axis of image; format: float > 0.0
 MAX_BLUR_2 -- standard deviation of the Gaussian kernel along Y axis of image; format: float > 0.0
-MAX_GAMMA_FACTOR -- maximum power of the gamma correction tansform; format: float > 0.0
+MAX_GAMMA_FACTOR -- maximum power of the gamma correction transform; format: float > 0.0
 ```
