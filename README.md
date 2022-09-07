@@ -26,7 +26,7 @@ NUM_OF_SAMPLES -- number of samples used to compute a single Chernoff-Cramer bou
 NUM_OF_BOUNDS -- total number of Chernoff-Cramer bounds to be computed (for a single image sample); format: int
 TRANSFORM_TYPE -- a transform (or composition of transforms) for a model to be certified against; format: str-str-...-str; for each 'str' (or single transform) the choice is ['blur', 'rotation', 'translation', 'gamma', 'brightness', 'scale', 'contrast']
 
-Transformation-specific parameters below are ignored if the corresponding transfromation if not in TRANSFORM_TYPE
+Transformation-specific parameters below are ignored if the corresponding transformation if not in TRANSFORM_TYPE
 
 MAX_DEGREE -- maximum angle to rotate an image for 'rotation' transform; format: float > 0.0
 MAX_TRANSLATION_1 -- maximum translation along X axis as a fraction of image X size; format: 0.0 < float < 1.0
